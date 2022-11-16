@@ -1,0 +1,25 @@
+/*posicionamento da imagem de fundo*/
+/*NOTA: não useia propriedade css BACKGROUNDIMAGE no body diretamente,
+pois essa propriedade é muito pesada, entao acaba sendo mais eficiente
+criar um elemento img e posicionar ele como um background*/
+
+/*i dont used background-image property, because its too slow*/
+#fbcg_wall {
+    position: fixed !important;
+    inset: 0 !important; 
+    width: 100vw !important;
+    height: 100vh !important;
+    image-rendering: optimizeSpeed !important;
+    object-fit: cover !important;
+    z-index: -1 !important;
+    opacity: 0.5 !important;
+}
+/*faz o fundo da pagina ser transparente*/
+/*makes original background transparent*/
+body {
+    background: transparent !important;
+}
+* {
+    /*deixa o cabecalho do facebook transparente*/
+    --nav-bar-background: transparent !important;
+}
