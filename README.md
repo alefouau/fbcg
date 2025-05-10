@@ -17,12 +17,21 @@ Every time you reload the page, the saved image will be applied.
 - 'storage' and 'unlimitedStorage': permissions to allow saving the selected image in the browser and read the saved image in reloads.
 NOTE: this extension has access to the facebook.com/* page ONLY, this extension doesn't collect any data or personal information.
 
-### ⚙️ How it works?
+### ❓ How to install
+1. Go to the [Releases page](https://github.com/alefouau/fbcg/releases/), download the latest **Source Code (ZIP)**
+2. Extract the folder to a **place where you won't delete it**
+3. Go to your browser, click in the hamburguer menu > Extensions > Manage Extensions (or type `chrome://extensions` in the address bar)
+3. Find an option called "Developer Options" and enable it. Some buttons will appear
+4. Click in the "Load unpacked" button, find and select the folder you extracted
+5. **If the extension appears in the list, the extension is installed successfully.**
+
+### ⚙️ How it works
 
 This extension injects a code into Facebook's page, this code verify if has an image saved in the extension storage, if an image is found, the main function responsible for applying the image is called.  
 The extension's UI also has a code that pick the image chosen by the user, save it to the extension's storage, and call the main function with the selected image as argument.  
 The main function will create an image element and put it behind of the Facebook's UI and make it transparent (background and the header element), then, set the received image (saved in the extension's storage or selected by the user) to the image element.
 And that's it.
+
 ### ❓ FAQ
 It's compatible with Firefox?
 > No, only Chromium based browsers (Google Chrome, Microsoft Edge, Opera, OperaGX, Brave, etc.)  
