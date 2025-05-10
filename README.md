@@ -4,7 +4,7 @@ A simple and lightweight chromium extension that allow you to set a background i
 
 ### 🖼️ Screenshot
 
-![FBCG screenshot](/screenshot.png)
+![FBCG screenshot](/screenshot.webp)
 
 ### 🤔 How to use
 
