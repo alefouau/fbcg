@@ -23,8 +23,8 @@
     ],
     "permissions": [
         "scripting",
-        "tabs",
-        "storage"
+        "storage",
+        "unlimitedStorage"
     ],
     "host_permissions":[
         "https://www.facebook.com/*"
